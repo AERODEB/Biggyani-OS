@@ -37,3 +37,16 @@ Makefile
 # OS files
 .DS_Store
 Thumbs.db
+
+# Biggyani OS Live Build generated files
+/packaging/live-build/.build/
+/packaging/live-build/binary/
+/packaging/live-build/cache/
+/packaging/live-build/chroot/
+/packaging/live-build/*.iso
+/packaging/live-build/*.contents
+/packaging/live-build/*.files
+/packaging/live-build/*.packages
+/packaging/live-build/*.packages.install
+/packaging/live-build/*.packages.live
+/packaging/live-build/binary.modified_timestamps
