@@ -53,7 +53,7 @@ Planned activities:
 - Project directory structure is established.
 - Documentation is maintained in the repository.
 
-**Current status:** Initial foundation established. Development workspace and architecture documentation have been created.
+**Current status:** Completed. Development workspace and architecture documentation have been created.
 
 ## 4. Bootable Operating System Prototype
 
@@ -73,7 +73,9 @@ Planned activities:
 
 **Expected result:**
 
-A bootable BOS prototype that starts successfully in a virtual machine.
+A bootable BOS Live prototype that starts successfully in a virtual machine.
+
+**Status:** Completed — the initial Debian 13-based Live ISO booted successfully in the `BOS-LIVE-TEST` VirtualBox VM. All eight initial checks passed. See [Live ISO Boot Test Report](testing/live-iso-boot-test.md).
 
 **Verification criteria:**
 
@@ -306,8 +308,8 @@ Their requirements and development roadmaps will be established independently wh
 | Milestone | Expected outcome |
 |---|---|
 | M1 | Development environment and repository established |
-| M2 | Bootable BOS prototype |
-| M3 | Installable BOS prototype |
+| M2 | Bootable BOS Live prototype — completed and tested |
+| M3 | Installable BOS prototype — next milestone |
 | M4 | Initial Biggyani desktop identity |
 | M5 | Basic functionality and offline validation |
 | M6 | Documentation and reproducible procedures |
