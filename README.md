@@ -64,11 +64,11 @@ Biggyani-OS/
 
 ## Development Status
 
-**Current stage:** Development foundation.
+**Current stage:** Bootable Live prototype validated; installer integration is the next milestone.
 
-The development environment and initial repository structure have been established. Architecture and roadmap documentation are being prepared.
+The Debian 13-based Live ISO has successfully booted in the `BOS-LIVE-TEST` VirtualBox machine. KDE Plasma, input, display, the application launcher, file manager, terminal, networking, shutdown, and restart were all verified. The initial test passed all 8 checks.
 
-The immediate milestone is to produce a bootable and installable BOS prototype based on Debian.
+The current image is Live-only and is not yet installable. The next milestone is to integrate Debian Installer and validate installation on the separate test VM disk. See [Live ISO Boot Test Report](docs/testing/live-iso-boot-test.md) for the recorded results.
 
 ## Future Direction
 
